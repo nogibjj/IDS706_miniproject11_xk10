@@ -20,10 +20,11 @@ This SQL query is designed to curate a selection of songs ideal for a DJ list fr
 * Prepare Raw Data: Create another notebook to transform the raw data. This involves filtering out unnecessary columns, adding new fields, and storing the processed data in a new table.
 * Query Transformed Data: Extend the pipeline with a notebook dedicated to querying the transformed data. This step is crucial for extracting meaningful insights from the processed data.
 <img width="931" alt="Screen Shot 2023-11-12 at 23 52 53" src="https://github.com/nogibjj/IDS706_miniproject11_xk10/assets/143849077/c4c2ea14-b9af-4e29-9936-15a831baf1fa">
+
 Make sure that raw data is loaded into the notebook and the data is transformed into database format and prepared for query
 <img width="1491" alt="Screen Shot 2023-11-12 at 23 53 37" src="https://github.com/nogibjj/IDS706_miniproject11_xk10/assets/143849077/392a5be8-d4b1-421a-a403-2b572a054dc7">
 
-6. Automate with a Databricks Job: Finally, automate the entire pipeline by creating a Databricks job. This job should sequentially run the data ingestion, processing, and analysis notebooks, ensuring a smooth and automated workflow.
+3. Automate with a Databricks Job: Finally, automate the entire pipeline by creating a Databricks job. This job should sequentially run the data ingestion, processing, and analysis notebooks, ensuring a smooth and automated workflow.
 <img width="838" alt="Screen Shot 2023-11-12 at 23 55 27" src="https://github.com/nogibjj/IDS706_miniproject11_xk10/assets/143849077/8202125b-45cb-4111-a2e5-84d5303147b8">
 <img width="770" alt="Screen Shot 2023-11-12 at 23 55 46" src="https://github.com/nogibjj/IDS706_miniproject11_xk10/assets/143849077/7ce58168-58b4-4534-ad4e-38a4031f06b7">
 
